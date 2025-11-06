@@ -60,3 +60,25 @@ ul{
     display: none;
 }
 
+nav>img{
+    height: 34px;
+    width: 34px;
+}
+
+nav{
+    height: 74px;
+    flex-direction: row;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>*{
+    margin: auto;
+}
+
+nav>h1{
+    
+}
+
+
