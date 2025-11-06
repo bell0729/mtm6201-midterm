@@ -77,10 +77,6 @@ nav>*{
     margin: auto;
 }
 
-nav>h1{
-    
-}
-
 /* ------------------------------------------------------------ Main */
 
 main{
@@ -127,18 +123,110 @@ main>*{
 
 .get-started{
     background-color: #cbea7b;
-    border: #cbea7b 0px solid;
+    border: #cbea7b 1px solid;
     border-radius: 6px;
     padding: 14px 20px 14px 20px;
 }
 
 .book-demo{
     background-color: #f6fbe9;
-    border: #f6fbe9 0px solid;
+    border: #e5f5bd solid 1px;
     border-radius: 6px;
     padding: 14px 20px 14px 20px;
 }
 
 .features{
-    
+    display: flex;
+    flex-direction: column;
+}
+
+.features>*{
+    align-self: center;
+    margin: 0px;
+}
+
+.features>h2{
+    margin-top: 40px;
+}
+
+.features>p{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.card>img{
+    width: 48px;
+    height: 48px;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6fbe9;
+    border: #e5f5bd solid 1px;
+    border-radius: 10px;
+    margin: 8px 0px 8px 0px;
+}
+
+.card>*{
+    margin: 5px;
+}
+
+.blog{
+    display: flex;
+    flex-direction: column;
+}
+
+.blog>*{
+    align-self: center;
+}
+
+.posts{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f6fbe9;
+    border: #eef8d3 solid 1px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.posts>*{
+    margin: 5px;
+}
+
+.posts>div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 145px;
+    background-color: #fafdf2;
+    border: #eef8d3 1px solid;
+    border-radius: 10px;
+}
+
+.posts>img{
+    width: 310px;
+    height: 200px;
+    align-self: center;
+}
+
+.posts>div>img{
+    width: 40px;
+    height: 40px;
+}
+
+.pinfo{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pinfo>*{
+    margin: 0px;
+    flex-direction: column;
+}
+
+.dumb{
+    align-self: end;
 }
