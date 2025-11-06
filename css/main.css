@@ -3,18 +3,37 @@ wrapper{
 }
 
 header{
+    display: flex;
+    height: 94px;
     background-color: #1a3129;
 }
 
+.decl{
+    align-self: end;
+    justify-self: left;
+    width: 72px;
+    height: 37px;
+}
+
+.decr{
+    align-self: end;
+    justify-self: right;
+    width: 72px;
+    height: 37px;
+}
+
 .join-demo{
+    width: 358px;
     display: flex;
+    align-self: center;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #234338;
     height: 40px;
     color: white;
     border: solid #2c5446 1px;
     border-radius: 6px;
+    justify-self: center;
 }
 
 .join-demo>img{
@@ -31,6 +50,13 @@ header{
     display: none;
 }
 
-nav.desk{
+nav{
+    border: solid #234338 1px;
+    background-color: #1a3129;
+    z-index: 1;
+}
+
+ul{
     display: none;
 }
+
