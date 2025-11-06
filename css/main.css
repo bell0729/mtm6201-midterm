@@ -1,3 +1,36 @@
-@media screen(min-width: 390; max-width: none;) {
-    
+wrapper{
+    width: 358px;
+}
+
+header{
+    background-color: #1a3129;
+}
+
+.join-demo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #234338;
+    height: 40px;
+    color: white;
+    border: solid #2c5446 1px;
+    border-radius: 6px;
+}
+
+.join-demo>img{
+    width: 20px;
+}
+
+.join-demo>*{
+    height: 20px;
+    margin: 0px;
+    align-self: center;
+}
+
+.join-demo>.desk{
+    display: none;
+}
+
+nav.desk{
+    display: none;
 }
