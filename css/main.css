@@ -234,5 +234,60 @@ main>*{
 .quotes{
     display: flex;
     flex-direction: column;
-    align-content: center;
+}
+
+.quotes>*{
+    align-self: center;
+}
+
+.quotes>p{
+    width: 310px;
+}
+
+.quotes>img{
+    align-self: baseline;
+    margin-left: 20px;
+    width: 34px;
+    height: 34px;
+}
+
+.jenn{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: #f6fbe9;
+    width: 358px;
+}
+
+.jenn>*{
+    justify-content: baseline;
+    align-self: center;
+    padding: 5px;
+}
+
+.jenn>img{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+}
+
+.faux-car{
+    display: flex;
+    flex-direction: row;
+}
+
+.faux-car>*{
+    padding: 10px;
+    align-self: center;
+    justify-self: center;
+}
+
+.arr{
+    height: 48px;
+    width: 48px;
+}
+
+.artsel{
+    width: 51px;
+    height: 7px;
 }
