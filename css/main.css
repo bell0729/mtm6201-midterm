@@ -370,3 +370,49 @@ main>*{
     background-color: #cbea7b;
     border-radius: 6px;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #1a3129;
+    color: white;
+}
+
+.flogo{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-head{
+    display: flex;
+    flex-wrap: wrap;
+    width: 358px;
+}
+
+.fstart{
+    display: flex;
+    justify-self: baseline;
+}
+
+.fstart>*{
+    align-self: center;
+}
+
+.fend{
+    display: flex;
+    justify-content: end;
+}
+
+.fend>*{
+    align-self: center;
+}
+
+.foot-links{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 358px;
+}
+
+.foot-links>*{
+    padding: 10px;
+}
