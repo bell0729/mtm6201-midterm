@@ -260,7 +260,6 @@ main>*{
 }
 
 .jenn>*{
-    justify-content: baseline;
     align-self: center;
     padding: 5px;
 }
@@ -385,13 +384,11 @@ footer{
 
 .footer-head{
     display: flex;
-    flex-wrap: wrap;
     width: 358px;
 }
 
 .fstart{
     display: flex;
-    justify-self: baseline;
 }
 
 .fstart>*{
