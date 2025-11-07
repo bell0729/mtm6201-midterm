@@ -291,3 +291,82 @@ main>*{
     width: 51px;
     height: 7px;
 }
+
+.price-head{
+    display: flex;
+    flex-direction: column;
+}
+
+.plans{
+    display: flex;
+    flex-direction: column;
+}
+
+.price-head>*{
+    align-self: center;
+    width: 358px;
+}
+
+.price-head>h2{
+    width: 124px;
+}
+
+.plans>*{
+    align-self: center;
+}
+
+.month-year{
+    display: flex;
+    border: #dcf1a7 solid 1px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.month-year>*{
+    padding: 0px 24px 0px 24px;
+}
+
+.month{
+    border-radius: 6px;
+    color: white;
+    background-color: #234338;
+}
+
+.bpu{
+    display: flex;
+    flex-direction: column;
+    width: 358px;
+    background-color: #f6fbe9;
+    margin: 10px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.bpu>*{
+    width: 298px;
+    align-self: center;
+}
+
+.cost{
+    font-size: 40px;
+    color: #2c5446;
+}
+
+.permonth{
+    display: flex;
+    flex-direction: row;
+}
+
+.permonth>*{
+    align-self: center;
+    margin: 5px 5px 20px 5px;
+}
+
+.choose-plan{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 298px;
+    background-color: #cbea7b;
+    border-radius: 6px;
+}
