@@ -1,0 +1,53 @@
+.teamp1{
+    display: flex;
+    max-width: 358px;
+    flex-direction: column;
+}
+
+.teamp1>*{
+    align-self: center;
+}
+
+.teamp1>h1{
+    margin-left: 50px;
+}
+
+.teamp1>img{
+    max-width: 358px;
+}
+
+.team-bar{
+    display: flex;
+    padding: 10px;
+    background-color: #234338;
+    align-self: baseline;
+    color: white;
+}
+
+/* You want comments? somewhere out in main.css there is a chunk of code that blocks me from using justify content and align content */
+/* The alteranative is as follows */
+
+.t1{
+    width: 140px;
+}
+
+.t2{
+    width: 190px;
+}
+
+.t3{
+    width: 130px;
+}
+
+.t4{
+    width: 220px;
+}
+
+.t5{
+    width: 200px;
+}
+
+.teamp2{
+    display: flex;
+    flex-direction: column;
+}
