@@ -218,7 +218,6 @@ main>*{
 .posts>div{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     height: 145px;
     background-color: #fafdf2;
     border: #eef8d3 1px solid;
@@ -253,6 +252,10 @@ main>*{
 
 /* --------------------------------------------------------------------------- Testimonial */
 
+.q2, .q3{
+    visibility: collapse;
+}
+
 .quotes{
     display: flex;
     flex-direction: column;
@@ -262,11 +265,20 @@ main>*{
     align-self: center;
 }
 
-.quotes>p{
+.testamony{
+    display: flex;
+    flex-direction: column;
+}
+
+.testamony>*{
+    align-self: center;
+}
+
+.quote>p{
     width: 310px;
 }
 
-.quotes>img{
+.quote>img{
     align-self: baseline;
     margin-left: 20px;
     width: 34px;
@@ -629,5 +641,78 @@ footer{
     .blog>h2{
         margin: auto;
         grid-area: bh2;
+    }
+
+    .posts>img{
+        width: 570px;
+        height: 336px;
+    }
+
+    .posts>h4{
+        margin-top: 20px;
+    }
+
+    .posts>h3{
+        margin-bottom: 20px;
+    }
+
+    .posts>div>*{
+        align-self: center;
+    }
+
+    .posts>div{
+        height: 83px;
+    }
+    .posts>div>img{
+        height: 48px;
+        width: 48px;
+    }
+
+    .posts>div>div>p{
+        margin-right: 250px;
+    }
+
+    .quote{
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-bottom: 0px;
+    }
+
+    .quote{
+        visibility: visible;
+        height: 320px;
+        width: 413px;
+    }
+
+    .quote>p{
+        width: 413px;
+    }
+
+    .quote>div>img{
+        width: 40px;
+        height: 40px;
+        margin-left: 15px;
+    }
+
+    .quote>div{
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        background-color: #f6fbe9;
+        width: 413px;
+    }
+
+    .dav>*{
+        align-self: center;
+        padding: 5px;
+    }
+
+    .rob>*{
+        align-self: center;
+        padding: 5px;
+    }
+
+    .testamony{
+        flex-direction: row;
     }
 }
