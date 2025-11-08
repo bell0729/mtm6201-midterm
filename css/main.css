@@ -1,5 +1,7 @@
 :root{
     width: 390px;
+    /* background-color: #fafdf2; */
+    background-color: lightblue;
 }
 
 header{
@@ -33,7 +35,6 @@ header{
     color: white;
     border: solid #2c5446 1px;
     border-radius: 6px;
-    justify-self: center;
 }
 
 .join-demo>img{
@@ -47,30 +48,27 @@ header{
 }
 
 .join-demo>.desk{
-    display: none;
+    visibility: collapse;
 }
 
 nav{
     border: solid #234338 1px;
     background-color: #1a3129;
     z-index: 1;
-}
-
-ul{
-    display: none;
-}
-
-nav>img{
-    height: 34px;
-    width: 34px;
-}
-
-nav{
     height: 74px;
     flex-direction: row;
     color: white;
     display: flex;
     justify-content: space-between;
+}
+
+ul{
+    visibility: hidden;
+}
+
+nav>img{
+    height: 34px;
+    width: 34px;
 }
 
 nav>*{
@@ -91,6 +89,24 @@ main>*{
 .point{
     width: 100%;
     height: 374px;
+}
+
+.opening-line{
+    display: flex;
+    flex-direction: column;
+}
+
+.opening-line>*{
+    align-self: center;
+}
+
+.opening{
+    display: flex;
+    flex-direction: column;
+}
+
+.opening>*{
+    align-self: center;
 }
 
 .prof{
@@ -135,6 +151,8 @@ main>*{
     padding: 14px 20px 14px 20px;
 }
 
+/* --------------------------------------------------------------------------- Features */
+
 .features{
     display: flex;
     flex-direction: column;
@@ -171,6 +189,8 @@ main>*{
 .card>*{
     margin: 5px;
 }
+
+/* --------------------------------------------------------------------------- Blog */
 
 .blog{
     display: flex;
@@ -231,6 +251,8 @@ main>*{
     align-self: end;
 }
 
+/* --------------------------------------------------------------------------- Testimonial */
+
 .quotes{
     display: flex;
     flex-direction: column;
@@ -290,6 +312,8 @@ main>*{
     width: 51px;
     height: 7px;
 }
+
+/* --------------------------------------------------------------------------- Price */
 
 .price-head{
     display: flex;
@@ -369,6 +393,8 @@ main>*{
     background-color: #cbea7b;
     border-radius: 6px;
 }
+
+/* --------------------------------------------------------------------------- Footer */
 
 footer{
     display: flex;
@@ -457,4 +483,151 @@ footer{
 .conta>*{
     align-self: center;
     padding: 2px;
+}
+
+/* --------------------------------------------------------------------------- Tablet */
+
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+    :root{
+        width: 1440px;
+    }
+
+    header{
+        justify-content: center;
+    }
+
+    .mob, .line{
+        display: none;
+    }
+
+    .join-demo>.desk{
+        visibility: visible;
+        width: 140px;
+        height: 38px;
+    }
+
+    .join-demo{
+        width: 1280px;
+        justify-content: space-between;
+    }
+
+    ul{
+        visibility: visible;
+        display: flex;
+    }
+
+    ul>li{
+        padding: 20px;
+        list-style: none;
+    }
+
+    .home-li{
+        color: #cbea7b;
+    }
+
+    .contact-us-li{
+        background-color: #cbea7b;
+        color: black;
+        border-radius: 6px;
+    }
+
+    .desk>h1{
+        justify-self: baseline;
+    }
+
+    main>*{
+        align-self: baseline;
+    }
+
+    .point{
+        width: 710px;
+        height: 712px;
+    }
+
+    .opening-line{
+        height: 712px;
+        flex-wrap: wrap;
+    }
+
+    .opening{
+        margin: auto;
+        margin-left: 40px;
+        margin-right: 80px;
+    }
+
+    .opening>*{
+        width: 610px;
+    }
+
+    .hap-custom{
+        order: 1;
+        display: flex;
+        margin-top: 30px;
+    }
+
+    .hap-custom>*{
+        padding: 0px 10px 0px 10px;
+    }
+
+    .prof{
+        position: inherit;
+        align-self: baseline;
+        width: 102px;
+    }
+
+    .features{
+        margin-top: 100px;
+        display: grid;
+        grid-template-areas: 
+        '... fh2 fh2 ...'
+        '... fp fp ...'
+        'c1 c1 c2 c2'
+        'c3 c3 c4 c4'
+        'c5 c5 c6 c6';
+    }
+
+
+    .c1{grid-area: c1;}
+    .c2{grid-area: c2;}
+    .c3{grid-area: c3;}
+    .c4{grid-area: c4;}
+    .c5{grid-area: c5;}
+    .c6{grid-area: c6;}
+    .features>p{grid-area: fp;}
+    .features>h2{
+        grid-area: fh2;
+        margin: auto;
+    }
+
+    .card{
+        padding: 30px 20px 30px 20px;
+    }
+
+    .c1, .c3, .c5{
+        margin-right: 10px;
+    }
+
+    .c2, .c4, .c6{
+        margin-left: 10px;
+    }
+
+    .blog{
+        padding-top: 70px;
+        display: grid;
+        grid-template-areas: 
+        '... bh2 bh2 ...'
+        '... bp bp ...'
+        'p1 p1 p2 p2'
+        'p3 p3 p4 p4';
+    }
+
+    .p1{grid-area: p1;}
+    .p2{grid-area: p2;}
+    .p3{grid-area: p3;}
+    .p4{grid-area: p4;}
+    .blog>p{grid-area: bp;}
+    .blog>h2{
+        margin: auto;
+        grid-area: bh2;
+    }
 }
