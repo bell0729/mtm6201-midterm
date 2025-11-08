@@ -385,6 +385,8 @@ footer{
 .footer-head{
     display: flex;
     width: 358px;
+    justify-content: center;
+    padding-top: 25px;
 }
 
 .fstart{
@@ -393,15 +395,22 @@ footer{
 
 .fstart>*{
     align-self: center;
+    padding: 2px;
 }
 
 .fend{
     display: flex;
-    justify-content: end;
+    padding-left: 90px;
 }
 
 .fend>*{
     align-self: center;
+    padding: 2px;
+}
+
+.fend>img{
+    width: 48px;
+    height: 48px;
 }
 
 .foot-links{
@@ -412,4 +421,40 @@ footer{
 
 .foot-links>*{
     padding: 10px;
+}
+
+.bmail, .sontact, .rocation{
+    width: 20px;
+    height: 20px;
+}
+
+.foot-contact{
+    display: flex;
+    flex-direction: column;
+    background-color: #234338;
+    border: #2c5446 solid 1px;
+    border-radius: 8px;
+    width: 358px;
+    align-self: center;
+    padding: 20px 0px 20px 0px;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.foot-contact>*{
+    align-self: center;
+    justify-self: center;
+}
+
+.conta{
+    display: flex;
+    justify-content: center;
+    border: #2c5446 solid 1px;
+    border-radius: 4px;
+    width: 318px;
+}
+
+.conta>*{
+    align-self: center;
+    padding: 2px;
 }
