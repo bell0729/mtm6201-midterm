@@ -408,6 +408,11 @@ main>*{
 
 /* --------------------------------------------------------------------------- Footer */
 
+.flinks-desk{
+    display: flex;
+    visibility: collapse;
+}
+
 footer{
     display: flex;
     flex-direction: column;
@@ -714,5 +719,62 @@ footer{
 
     .testamony{
         flex-direction: row;
+    }
+
+    .pricing{
+        margin-bottom: 100px;
+    }
+
+    .price-head>*{
+        width: 1440px;
+    }
+
+    .pcard{
+        display: flex;
+    }
+
+    .flinks-desk{
+        visibility: visible;
+        margin: 0px 250px 0px 360px;
+    }
+
+    .flinks-desk>*{
+        padding: 10px;
+    }
+
+    .foot-links{
+        visibility: collapse;
+    }
+
+    .footer-head{
+        display: flex;
+        width: 1440px;
+        justify-content: center;
+        padding-top: 25px;
+    }
+
+    .foot-contact{
+        display: flex;
+        flex-direction: row;
+        background-color: #234338;
+        border: #2c5446 solid 1px;
+        border-radius: 8px;
+        width: 1280px;
+        align-self: center;
+        padding: 14px 26px 14px 16px;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+
+    .conta{
+        display: flex;
+        justify-content: center;
+        border: #2c5446 solid 1px;
+        border-radius: 4px;
+        width: 221px;
+    }
+
+    .copyright{
+        margin-left: 293px;
     }
 }
