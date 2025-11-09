@@ -27,7 +27,7 @@
     color: white;
 }
 
-/* You want comments? somewhere out there in main.css there is a chunk of code that blocks me from using justify content and align content */
+/* You want comments? Somewhere out there in main.css there is a chunk of code that blocks me from using justify content and align content */
 /* The alteranative is as follows */
 
 .t1{
@@ -87,18 +87,135 @@
     width: 75px;
 }
 
-.teamp3>img:nth-child(5){
+.teamp3>div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 278px;
+}
+
+.teamp3>div>h2{
+    align-self: center;
+}
+
+.teamp3>img:nth-child(4){
     width: 90px;
     align-self: end;
 }
 
-.teamp3>p:nth-child(4){
+.teamp3>p{
     align-self: center;
-    /* width: 278px; */
     padding: 14px 139px 14px 139px;
     background-color: #cbea7b;
 }
+/* -------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 1440px) and (max-width: 1919px){
 
-.teamp3>h2, teamp3>p:nth-child(3){
-    align-self: center;
+    .teamp1{
+        display: flex;
+        max-width: 1280px;
+        flex-direction: column;
+        background-color: #f6fbe9;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        align-self: center;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .teamp1>p{
+        align-self: center;
+    }
+
+    .teamp1>img{
+        max-width: 643px;
+    }
+
+    .team-bar{
+        display: flex;
+        padding: 10px;
+        background-color: #234338;
+        align-self: center;
+        color: white;
+        width: 1280px;
+    }
+
+    .team-bar>*{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .teamp2{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+
+    .timg>img{
+        width: 305px;
+    }
+
+    .team-imgs2{
+        padding-left: 20px;
+
+    }
+
+    .team-imgs3{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tinfo{
+        background-color: #f6fbe9;
+        position: relative;
+        top: -50px;
+        width: 226px;
+        padding: 20px;
+        height: 54px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px 20px 0px 0px;
+    }
+
+    .tinfo>*{
+        margin: 3px;
+    }
+
+    .teamp3{
+        display: flex;
+        align-self: center;
+        flex-direction: row;
+        background-color: #f6fbe9;
+        border-radius: 10px;
+        margin-bottom:50px;
+        width: 1280px;
+        height: 217px;
+        justify-content: space-evenly;
+    }
+
+    .teamp3>img:nth-child(1){
+        width: 75px;
+        height: 80px;
+    }
+
+    .teamp3>div{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 901px;
+    }
+
+    .teamp3>div>h2{
+        align-self: baseline;
+    }
+
+    .teamp3>img:nth-child(4){
+        width: 90px;
+        align-self: end;
+    }
+
+    .teamp3>p{
+        align-self: center;
+        padding: 10px 30px 10px 30px;
+        background-color: #cbea7b;
+    }
 }
