@@ -536,9 +536,20 @@ footer{
     ul>li{
         padding: 20px;
         list-style: none;
+        color: white;
+        transition: color 0.5s;
     }
 
-    .home-li{
+    ul>li>a{
+        color: white;
+        transition: color 0.5s;
+    }
+
+    ul>li:hover{
+        color: #cbea7b;
+    }
+
+     ul>li>a:hover{
         color: #cbea7b;
     }
 
@@ -546,6 +557,28 @@ footer{
         background-color: #cbea7b;
         color: black;
         border-radius: 6px;
+        animation-play-state: paused;
+    }
+
+    @keyframes talk{
+        0%{
+            background-color: #cbea7b;
+            color: black;
+        }
+
+        50%{
+            background-color: #fafdf2;
+        }
+
+        100%{
+            background-color: #cbea7b;
+            color: black;
+        }
+    }
+
+    .contact-us-li:hover{
+        animation-play-state: running;
+        animation: talk 1s infinite;
     }
 
     .desk>h1{
@@ -779,6 +812,8 @@ footer{
     }
 }
 
+/* -------------------------------------------------------------------------------------------------- */
+
 @media screen and (min-width: 1920px){
     :root{
         width: 1920px;
@@ -811,9 +846,20 @@ footer{
     ul>li{
         padding: 20px;
         list-style: none;
+        color: white;
+        transition: color 0.5s;
     }
 
-    .home-li{
+    ul>li>a{
+        color: white;
+        transition: color 0.5s;
+    }
+
+    ul>li:hover{
+        color: #cbea7b;
+    }
+
+     ul>li>a:hover{
         color: #cbea7b;
     }
 
@@ -821,6 +867,29 @@ footer{
         background-color: #cbea7b;
         color: black;
         border-radius: 6px;
+        animation-play-state: paused;
+
+    }
+
+    @keyframes talk{
+        0%{
+            background-color: #cbea7b;
+            color: black;
+        }
+
+        50%{
+            background-color: #fafdf2;
+        }
+
+        100%{
+            background-color: #cbea7b;
+            color: black;
+        }
+    }
+
+    .contact-us-li:hover{
+        animation-play-state: running;
+        animation: talk 1s infinite;
     }
 
     .desk>h1{
