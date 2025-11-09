@@ -624,7 +624,7 @@ footer{
         align-self: baseline;
         width: 102px;
     }
-
+/* --------------------------------------------------------------------------- Features Tablet */
     .features{
         margin-top: 100px;
         display: grid;
@@ -635,7 +635,6 @@ footer{
         'c3 c3 c4 c4'
         'c5 c5 c6 c6';
     }
-
 
     .c1{grid-area: c1;}
     .c2{grid-area: c2;}
@@ -660,7 +659,7 @@ footer{
     .c2, .c4, .c6{
         margin-left: 10px;
     }
-
+/* --------------------------------------------------------------------------- Blog Tablet */
     .blog{
         padding-top: 70px;
         display: grid;
@@ -709,7 +708,7 @@ footer{
     .posts>div>div>p{
         margin-right: 250px;
     }
-
+/* --------------------------------------------------------------------------- Testimony Tablet */
     .quote{
         margin-left: 25px;
         margin-right: 25px;
@@ -753,7 +752,7 @@ footer{
     .testamony{
         flex-direction: row;
     }
-
+/* --------------------------------------------------------------------------- Pricing Tablet */
     .pricing{
         margin-bottom: 100px;
     }
@@ -765,7 +764,7 @@ footer{
     .pcard{
         display: flex;
     }
-
+/* --------------------------------------------------------------------------- Footer Tablet */
     .flinks-desk{
         visibility: visible;
         margin: 0px 250px 0px 360px;
@@ -812,7 +811,7 @@ footer{
     }
 }
 
-/* -------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------- Desktop */
 
 @media screen and (min-width: 1920px){
     :root{
@@ -935,7 +934,7 @@ footer{
         align-self: baseline;
         width: 102px;
     }
-
+/* -------------------------------------------------------------------------------------------------- Features Desktop */
     .features{
         margin-top: 100px;
         display: grid;
@@ -971,7 +970,7 @@ footer{
     .c2, .c4, .c6{
         margin-left: 10px;
     }
-
+/* -------------------------------------------------------------------------------------------------- Blog Desktop */
     .blog{
         padding-top: 70px;
         display: grid;
@@ -1020,7 +1019,7 @@ footer{
     .posts>div>div>p{
         margin-right: 250px;
     }
-
+/* -------------------------------------------------------------------------------------------------- Testimony Desktop */
     .quotes{
         align-self: center;
     }
@@ -1068,7 +1067,7 @@ footer{
     .testamony{
         flex-direction: row;
     }
-
+/* -------------------------------------------------------------------------------------------------- Pricing Desktop */
     .pricing{
         margin-bottom: 100px;
         align-self: center;
@@ -1081,7 +1080,7 @@ footer{
     .pcard{
         display: flex;
     }
-
+/* -------------------------------------------------------------------------------------------------- Footer Desktop */
     .flinks-desk{
         visibility: visible;
         margin: 0px 250px 0px 360px;

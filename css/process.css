@@ -16,7 +16,7 @@
     position: relative;
     top: -50px;
 }
-
+/* -------------------------------------------------------------------------------------------------- Process Steps */
 .step-icon{
     width: 54px;
     height: 54px;
@@ -55,7 +55,7 @@ p.mob{
     left: 10px;
     z-index: -1;
 }
-
+/* -------------------------------------------------------------------------------------------------- Process Join */
 .proc-join{
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@ p.mob{
     padding: 14px 20px 14px 90px;
     background-color: #cbea7b;
 }
-
+/* -------------------------------------------------------------------------------------------------- Tablet */
 @media screen and (min-width: 1440px) and (max-width: 1919px){
 
     .proc-intro{
@@ -132,7 +132,7 @@ p.mob{
     main>p{
         margin-bottom: 80px;
     }
-
+/* -------------------------------------------------------------------------------------------------- Process Steps Tablet */
     .proc-steps{
         margin-left: 20px;
         display: grid;
@@ -253,6 +253,7 @@ p.mob{
         left: 10px;
         z-index: -1;
     }
+/* -------------------------------------------------------------------------------------------------- Process Join Tablet*/    
     .proc-join{
         display: flex;
         align-self: center;
@@ -293,7 +294,7 @@ p.mob{
         background-color: #cbea7b;
     }
 }
-
+/* -------------------------------------------------------------------------------------------------- Desktop */
 @media screen and (min-width: 1920px){
 
     .proc-intro{
@@ -330,7 +331,7 @@ p.mob{
         margin-bottom: 80px;
         width: 996px;
     }
-
+/* -------------------------------------------------------------------------------------------------- Process Steps Desktop */
     .proc-steps{
         display: grid;
         align-self: center;
@@ -451,6 +452,7 @@ p.mob{
         left: 10px;
         z-index: -1;
     }
+    /* -------------------------------------------------------------------------------------------------- Process Join Desktop*/
     .proc-join{
         display: flex;
         align-self: center;
