@@ -1,0 +1,233 @@
+.proc-intro{
+    background-color: #f6fbe9;
+    margin-top: 50px;
+}
+
+.proc-intro>img{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+}
+
+.proc-intro>h1, .proc-intro>p{
+    width: 298px;
+    margin: auto;
+    position: relative;
+    top: -50px;
+}
+
+.step-icon{
+    width: 54px;
+    height: 54px;
+}
+
+.proc-steps{
+    display: flex;
+    flex-direction: column;
+}
+
+.proc-steps>.desk{
+    visibility: collapse;
+}
+
+div.mob{
+    align-self: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 298px;
+    padding: 30px;
+    background-color: #f6fbe9;
+    border-radius: 10px;
+}
+
+div.mob>img{
+    padding-right: 10px;
+}
+
+p.mob{
+    align-self: baseline;
+    font-size: 80px;
+    color: #468671;
+    margin: 0px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    z-index: -1;
+}
+
+.proc-join{
+    display: flex;
+    flex-direction: column;
+    background-color: #f6fbe9;
+    width: 358px;
+    border-radius: 10px;
+    margin-bottom:50px;
+    margin-top: 50px;
+}
+
+.proc-join>img:nth-child(1){
+    width: 75px;
+    position: relative;
+    z-index: 1;
+}
+
+.proc-join>div{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 278px;
+}
+
+.proc-join>div>h2{
+    align-self: center;
+}
+
+.proc-join>img:nth-child(4){
+    width: 90px;
+    align-self: end;
+}
+
+.proc-join>p{
+    align-self: center;
+    width: 168px;
+    padding: 14px 20px 14px 90px;
+    background-color: #cbea7b;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1919px){
+
+    .proc-intro{
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        width: 1280px;
+    }
+
+    .proc-intro>img{
+        width: 643px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+
+    .proc-intro>h1, .proc-intro>p{
+        width: 1120px;
+        margin: auto;
+        position: relative;
+        top: -50px;
+        align-self: center;
+    }
+
+    main>h2, main>p{
+        width: 780px;
+        align-self: center;
+    }
+
+    main>h2{
+        margin-left: auto;
+        margin-top: 80px;
+    }
+
+    main>p{
+        margin-bottom: 80px;
+    }
+
+    .proc-steps{
+        display: grid;
+        grid-template-areas: 
+        's1 s2'
+        's3 s4'
+        's5 s6'
+        's7 s8'
+        's9 s10';
+    }
+
+    .proc-s1{grid-area: s1;}
+    .proc-s2{grid-area: s2;}
+    .proc-s3{grid-area: s3;}
+    .proc-s4{grid-area: s4;}
+    .proc-s5{grid-area: s5;}
+    .proc-s6{grid-area: s6;}
+    .proc-s7{grid-area: s7;}
+    .proc-s8{grid-area: s8;}
+    .proc-s9{grid-area: s9;}
+    .proc-s10{grid-area: s10;}
+
+    .step-icon{
+        width: 54px;
+        height: 54px;
+    }
+
+    .proc-steps{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .proc-steps>.desk{
+        visibility: visible;
+    }
+
+    div.mob{
+        align-self: center;
+        display: flex;
+        flex-wrap: wrap;
+        width: 298px;
+        padding: 30px;
+        background-color: #f6fbe9;
+        border-radius: 10px;
+    }
+
+    div.mob>img{
+        padding-right: 10px;
+    }
+
+    p.mob{
+        align-self: baseline;
+        font-size: 80px;
+        color: #468671;
+        margin: 0px;
+        position: relative;
+        top: 35px;
+        left: 10px;
+        z-index: -1;
+    }
+
+    .proc-join{
+        display: flex;
+        flex-direction: column;
+        background-color: #f6fbe9;
+        width: 358px;
+        border-radius: 10px;
+        margin-bottom:50px;
+        margin-top: 50px;
+    }
+
+    .proc-join>img:nth-child(1){
+        width: 75px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .proc-join>div{
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        width: 278px;
+    }
+
+    .proc-join>div>h2{
+        align-self: center;
+    }
+
+    .proc-join>img:nth-child(4){
+        width: 90px;
+        align-self: end;
+    }
+
+    .proc-join>p{
+        align-self: center;
+        width: 168px;
+        padding: 14px 20px 14px 90px;
+        background-color: #cbea7b;
+    }
+}
